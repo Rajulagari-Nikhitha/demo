@@ -1,3 +1,4 @@
-def add():
+from cal import add
+def a():
     assert add(2,4)==6
     assert add(1,-5)==-4
