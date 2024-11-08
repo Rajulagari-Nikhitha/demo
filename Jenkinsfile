@@ -26,7 +26,7 @@ pipeline {
  
         stage('Run Tests') {
             steps {
-                bat 'test.py'
+                bat 'test_cal.py'
             }
         }
     }
