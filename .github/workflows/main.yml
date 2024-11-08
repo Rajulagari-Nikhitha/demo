@@ -25,11 +25,12 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest > output.log || true  # Redirect output to output.log
+          pytest 
+          
 
-      - name: Upload test results
-        uses: actions/upload-artifact@v4
-        with:
-          name: test-results
-          path: output.log
+      # - name: Upload test results
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: test-results
+      #     path: output.log
           
