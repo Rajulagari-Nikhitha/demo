@@ -25,7 +25,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest 
+          pytest test_cal.py
           
 
       # - name: Upload test results
